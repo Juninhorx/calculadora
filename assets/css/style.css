@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: rgb(66, 64, 64);
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #000000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculadora {
+  width: 400px;
+}
+
+.display {
+  background: #000;
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border: 1.5px solid rgb(90, 90, 90);
+  border-radius: 10px;
+  color: white;
+}
+
+.btn {
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(160deg, #ff9900 50%, #ff7b00 50%);
+}
+
+.btn-clear {
+  background: linear-gradient(160deg, #7bff00d7 50%, #48ff00c4 50%);
+}
+
+.btn-dell,
+.btn-eq {
+  background: linear-gradient(160deg, #646464f1 50%, #4b4b4b 50%);
+}
+
+.btn:hover {
+  background: linear-gradient(160deg, #ffc400 50%, #ffc400da 50%);
+}
+
+.btn-clear:hover {
+  background: linear-gradient(160deg, #7bff00f5 50%, #48ff00e7 50%);
+}
+.btn-dell:hover,
+.btn-eq:hover {
+  background: linear-gradient(160deg, #9e9e9ef1 50%, #707070 50%);
+}
+
+.sinais {
+  background: linear-gradient(160deg, #ff4800da 50%, #ff4800c2 50%);
+}
+.sinais:hover {
+  background: linear-gradient(160deg, #ff4800 50%, #ff4800e1 50%);
+}
+.rec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+}
+.rec a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.rec a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
